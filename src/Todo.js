@@ -90,7 +90,7 @@ export default function Todo() {
             <div className="task">
                 {alltask}
             </div>
-            <div className="btn" onClick={clearall}>Button</div>
+            <div className="btn" onClick={clearall}>Clear All</div>
         </div>
     )
 }
