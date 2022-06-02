@@ -4,8 +4,13 @@ body {
   box-sizing: border-box;
   color: white;
   font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+html{
+  font-size: 62.5%;
+}
 .cardcon{
   display: flex;
 overflow:auto;
@@ -32,4 +37,97 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.formcon{
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+  backround-color: aqua;
+}
+input{
+  width: 80%;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+input:focus{
+  outline: none;
+}
+.inputcon{
+  width: 80%;
+  display: flex;
+  border-radius: 0.3rem;
+  justify-content: space-between;
+  background-color: rgb(82, 158, 239);
+}
+i{
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+i:hover{
+  color: rgb(17, 19, 23);
+}
+.icon{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskcon{
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: rgb(82, 158, 239);
+  border-radius: 0.3rem;
+}
+.taskname{
+width: 70%;
+font-size: 1.5rem;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  overflow-x: scroll;
+}
+.taskname::-webkit-scrollbar{
+  display: none;
+}
+.btndiv{
+  display: flex;
+  width: 20%;
+  height: 100%;
+}
+.taskicon{
+  width: 50%;
+  height: 100%;
+}
+.task{
+  margin-top: 2rem;
+}
+.btn{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(82, 158, 239);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.tag{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+h1{
+  margin-bottom: 00.5rem;
+}
+@media (max-width:500px){
+  html{
+      font-size: 7px;
+  }
 }
